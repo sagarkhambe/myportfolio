@@ -537,7 +537,7 @@ nav button:hover {
     font-size: 14px;
     background-color: red;
     border-color: red;
-    /* color: white; */
+    color: white;
     text-decoration: none;
     transition: .5s;
     
@@ -821,7 +821,7 @@ textarea {
     }
 
     .home-text p {
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px 0;
     }
 
