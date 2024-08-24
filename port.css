@@ -87,7 +87,9 @@ html {
     width: 100%;
     background-color: black;
     padding: 20px;
-    position: fixed;
+    position: sticky;
+    z-index: 1;
+    top: 0;
     border-bottom: 3px solid rgb(6, 179, 247);
 
 }
