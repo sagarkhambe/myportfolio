@@ -210,7 +210,7 @@ nav button:hover {
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: 35% 60%;
+    grid-template-columns: repeat(2,1fr);
     padding: 12px 10%;
     justify-content: space-between;
     align-items: center;
