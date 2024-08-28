@@ -20,15 +20,7 @@ body{
  color: var(--text-color);
  transition: background 0.8s, color 0.8s;
 }
-/* .dark {
-    background-color: black;
-    color: white;
-}
 
-.light {
-    background-color: white;
-    color: black;
-} */
 
 html {
     scroll-behavior: smooth;
@@ -218,7 +210,7 @@ nav button:hover {
     /* box-shadow: 0px 0px 50px rgb(0, 195, 255); */
     background-size: cover;
     background-position: center;
-    /* background-color: black; */
+    /* background-color: pink; */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../images/img2.jpg); */
 
 }
@@ -328,8 +320,8 @@ nav button:hover {
 
     align-content: center;
     padding: 0px 10%;
-    /* background-color: black;
-    color: white; */
+   /* background-color: blue; */
+    /* color: white;  */
     /* background:linear-gradient(90deg,hsl(43, 30%, 95%),rgb(240, 186, 223),rgb(225, 228, 225)); */
 
 }
@@ -402,8 +394,8 @@ nav button:hover {
     width: 100%;
     height: 100vh;
     padding: 12px 10%;
-    /* background-color: black;
-    color: white; */
+     /* background-color: brown; */
+    /*color: white; */
     display: grid;
     justify-content: center;
     align-content: space-evenly;
@@ -482,8 +474,8 @@ nav button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 80px 10%;
-    /* background-color: black;
-    color: white; */
+    /* background-color: rgb(41, 230, 24); */
+    /*color: white; */
     box-shadow: 0px 0px 20px #3498db inset;
 ;
 }
@@ -625,7 +617,7 @@ textarea {
 .container {
     width: 100%;
     height: 100vh;
-    /* background-color: black; */
+    /* background-color: rgb(232, 241, 99); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.849)), url(../images/img3.jpeg); */
     display: grid;
     justify-content: center;
@@ -643,6 +635,7 @@ textarea {
     font-size: 40px;
     letter-spacing: 1.5px;
     border-bottom: 3px solid white;
+   
 
 }
 
@@ -729,7 +722,7 @@ textarea {
     padding: 5px;
     /* margin: 0px 25px; */
     color: rgb(11, 190, 235);
-    background-color: black;
+    /* background-color: rgb(226, 14, 14); */
     font-size: 15px;
 }
 .footer a i{
@@ -762,7 +755,11 @@ textarea {
     .dropdown-menu {
         display: block;
     }
-    
+    #scrollbtn {
+        padding: 3px;
+        font-size: 18px;
+    }
+
 
     nav #toggle-btn i {
         display: block;
@@ -909,7 +906,9 @@ textarea {
         align-items: center;
         padding: 80px 10%;
     }
-
+    .contact-section {
+        box-shadow: none;
+    }
     .contact-part {
         padding: 20px;
         /* background-color: aqua; */
@@ -1030,9 +1029,8 @@ textarea {
     }
 
     #scrollbtn {
- 
         font-size: 18px;
-        bottom: 20px;
+        bottom: 10px;
         right: 20px;
     }
 
@@ -1043,7 +1041,9 @@ textarea {
     .skill-h1 {
         font-size: 28px;
     }
-
+    .skill-h1{
+        border-bottom:none;
+    }
     /* ..contact part... */
     .email-part input {
         width: 300px;
@@ -1081,6 +1081,11 @@ textarea {
 
 /* ............Responsive.... ( 320px ) */
 @media (max-width: 320px) {
+    #scrollbtn {
+        font-size: 18px;
+        bottom: 10px;
+        right: 15px;
+    }
     #about-section {
         width: 100%;
         /* height: auto; */
@@ -1117,6 +1122,10 @@ textarea {
     .fa-twitter {
         font-size: 12px;
 
+    }
+    /* skill section */
+    .skill-h1{
+        border-bottom:none;
     }
 
     /* ... .contact-section..  */
